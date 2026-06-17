@@ -10,10 +10,10 @@ concurrency:
 
 jobs:
   # ───────────────────────────────────────────────────────────────
-  # 1. checks — reusable из pr-check.yaml (type-check back + front)
+  # 1. checks — reusable из typecheck.yaml (type-check back + front)
   # ───────────────────────────────────────────────────────────────
   checks:
-    uses: ./.github/workflows/pr-check.yaml
+    uses: ./.github/workflows/typecheck.yaml
 
   # ───────────────────────────────────────────────────────────────
   # 2. build — собрать оба образа параллельно, запушить в Docker Hub
