@@ -38,3 +38,4 @@ async function bootstrap() {
   console.log(`Listening on http://localhost:${port}`);
 }
 bootstrap();
+// тестовый комментарий — для прогона PR-флоу
